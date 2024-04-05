@@ -40,11 +40,11 @@ const Signin = () => {
   <input type="email" className="form-control mt-2 mb-2" id="exampleInputEmail1" aria-describedby="emailHelp"  onChange={(e)=>{setemail(e.target.value)}}/>
  
   <label htmlFor="exampleInputfirstname" className="form-label mt-2">Firtname</label>
-    <input type="password" className="form-control" id="exampleInpufirstname" onChange={(e)=>{setfirstname(e.target.value)}}/>
+    <input type="text" className="form-control" id="exampleInpufirstname" onChange={(e)=>{setfirstname(e.target.value)}}/>
 
 
     <label htmlFor="exampleInputlastname" className="form-label mt-2">Lastname</label>
-    <input type="password" className="form-control" id="exampleInputlastname" onChange={(e)=>{setlastname(e.target.value)}}/>
+    <input type="text" className="form-control" id="exampleInputlastname" onChange={(e)=>{setlastname(e.target.value)}}/>
 
 
   <label htmlFor="exampleInputPassword1" className="form-label mt-2">Password</label>
